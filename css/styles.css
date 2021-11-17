@@ -33,13 +33,13 @@
   margin-inline: 1%;
 }
 
+li {
+  list-style-type: none;
+}
+
 .div-head > img:hover {
   transform: scale(1.1);
   filter: grayscale(30);
-}
-
-.div-main-redes > b {
-  list-style: none;
 }
 
 .div-titulo-redes {
@@ -94,7 +94,6 @@
 
 .lista-datos {
   margin-top: 5%;
-  list-style-type: none;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 15px;
   margin-left: -20%;
@@ -110,7 +109,6 @@
 
 .division-items {
   margin-top: 5%;
-  list-style-type: none;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 15px;
   margin-left: -60%;
@@ -118,11 +116,15 @@
 
 .division {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   margin-top: 5%;
   margin-bottom: 10%;
   display: flex;
   justify-content: center;
+}
+
+.division > b {
+  font-size: 20px;
 }
 
 .mainbody {
@@ -142,23 +144,25 @@ footer {
 
 .div-referencias-laborales {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 20px;
   margin-top: 5%;
   margin-bottom: 5%;
 }
 
 .div-referencias-items {
   margin-top: 5%;
-  list-style-type: none;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 15px;
   margin-left: -50%;
 }
 
 .div-frameworks {
-  margin-top: 225px;
+  margin-top: 200px;
   margin-bottom: 5%;
   margin-right: 5%;
+}
+
+.div-frameworks > li:hover {
+  transform: scale(1.5);
 }
 
 .items-frameworks {
