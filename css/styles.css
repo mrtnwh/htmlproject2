@@ -96,7 +96,6 @@ li {
   margin-top: 5%;
   margin-bottom: 10%;
   padding: 5px;
-  
 }
 
 .lista-datos {
@@ -115,14 +114,13 @@ li {
   display: flex;
   justify-content: space-evenly;
   margin-top: 10%;
-  
 }
 
 .division-items {
   text-align: center;
   padding: 5px;
   border-radius: 10px;
-  background-color:lightseagreen;
+  background-color: lightseagreen;
   list-style-position: inside;
   margin-top: 5%;
 
@@ -141,10 +139,20 @@ li {
   justify-content: center;
 }
 
+.lista-datos > li {
+  margin-bottom: 10px;
+}
 .division > b {
   font-size: 20px;
 }
 
+.barraNav {
+  margin-top: -5px;
+}
+
+.division2 > p {
+  margin-top: -10px;
+}
 .mainbody {
   display: flex;
   justify-content: space-between;
@@ -194,14 +202,7 @@ footer {
   padding-top: 50%;
 }
 
-@media screen and (max-width: 900px) {
-  body {
-    background-color: pink;
-    flex: 100%;
-  }
-}
-
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1056px) {
   body {
     background-color: #e61555;
   }
@@ -209,13 +210,29 @@ footer {
     margin-top: -30px;
   }
   .div-frameworks {
-    margin-top: -2px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 150px;
+    height: 310px;
+  }
+  .barraNav {
+    margin-top: -5px;
   }
   .division2 {
     flex-direction: column;
   }
+  .div-integrantes {
+    height: 300px;
+    margin-top: 20px;
+    width: 150px;
+    margin-right: 10px;
+  }
 }
-
+@media screen and (max-width: 1120px) {
+  .division > b {
+    margin-left: 40px;
+  }
+}
 @media screen and (min-width: 900px) {
   body {
     background-color: plum;
