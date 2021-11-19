@@ -29,7 +29,6 @@ body {
   background-color: #bc4ed8;
   display: flex;
   justify-content: flex-end;
-  margin-top: -3.9px;
 }
 
 .itemsNav {
@@ -75,10 +74,14 @@ li {
 }
 
 .div-integrantes {
+  background-color: lightsalmon;
+  border-radius: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   display: flex;
   justify-content: right;
   padding: 5%;
-  margin-top: 150px;
+  margin-top: 5%;
+  margin-bottom: 20%;
 }
 
 .items-integrantes {
@@ -86,41 +89,53 @@ li {
 }
 
 .div-datos-personales {
+  background-color: lightblue;
+  border-radius: 15px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
   margin-top: 5%;
-  margin-bottom: 5%;
-  display: flex;
-  justify-content: center;
-  margin-left: -25%;
+  margin-bottom: 10%;
+  padding: 5px;
+  
 }
 
 .lista-datos {
+  margin-left: -5%;
   margin-top: 5%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 15px;
-  margin-left: -20%;
+  text-align: center;
 }
 
 .division2 {
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  border-radius: 10px;
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+  justify-content: space-evenly;
   margin-top: 10%;
-  margin-left: -40%;
+  
 }
 
 .division-items {
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  background-color:lightseagreen;
+  list-style-position: inside;
   margin-top: 5%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 15px;
-  margin-left: -60%;
+
+  margin-left: -25%;
+  margin-right: 10%;
 }
 
 .division {
+  padding: 5px;
+  background-color: lightblue;
+  border-radius: 10px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 15px;
-  margin-top: 5%;
   margin-bottom: 10%;
   display: flex;
   justify-content: center;
@@ -152,7 +167,7 @@ footer {
 }
 
 #datosPersonales {
-  margin-right: -70px;
+  padding: 20px;
 }
 
 .div-referencias-items {
@@ -163,9 +178,12 @@ footer {
 }
 
 .div-frameworks {
-  margin-top: 200px;
-  margin-bottom: 5%;
-  margin-right: 5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 5%;
+  padding: 5%;
+  background-color: lightsalmon;
+  border-radius: 10px;
+  margin-bottom: 20%;
 }
 
 .div-frameworks > li:hover {
