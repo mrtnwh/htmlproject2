@@ -204,7 +204,7 @@ footer {
 
 @media screen and (max-width: 1056px) {
   body {
-    background-color: #e61555;
+    background-color: #ab49cc;
   }
   .div-integrantes {
     margin-top: -30px;
@@ -220,6 +220,13 @@ footer {
   }
   .division2 {
     flex-direction: column;
+  }
+  .division2 > p {
+    margin-right: 155px;
+  }
+  .division-items {
+    margin-bottom: 10px;
+    margin-right: 100px;
   }
   .div-integrantes {
     height: 300px;
